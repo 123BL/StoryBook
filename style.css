@@ -3,6 +3,17 @@ width: 100px;
 height: 100px;
 }
 
-#C5 {
-    width: 20px;
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
 }
